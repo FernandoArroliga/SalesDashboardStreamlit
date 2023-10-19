@@ -72,6 +72,27 @@ with right_column:
 st.markdown("---")
 
 
+# SALES BY PRODUCT LINE (BAR CHART)
+sales_by_product_line = (
+    data_selection.groupby(by=["Product line"]).sum()[["Total"]].sort_values(by="Total")
+)
+
+fig_product_sales = px.bar(
+    sales_by_product_line,
+    x="Total",
+    y=sales_by_product_line.index,
+    orientation="h",
+    title="<b>Sales by Product Line</b>",
+    color_discrete_sequence=["#0083B8"] * len(sales_by_product_line),
+    template="plotly_white",
+)
+
+st.plotly_chart(fig_product_sales)
+
+
+
+
+
 
 
 
