@@ -10,8 +10,6 @@ This Sales Dashboard is a data analysis and visualization project created in Pyt
 - [Features](#features)
 - [How to Use the Dashboard](#how-to-use-the-dashboard)
 - [Key Performance Indicators (KPIs)](#key-performance-indicators-kpis)
-- [Sales by Product Line](#sales-by-product-line)
-- [Sales by Hour](#sales-by-hour)
 - [Code](#code)
 - [Contributing](#contributing)
 - [License](#license)
@@ -32,6 +30,8 @@ To run this Sales Dashboard on your local machine, follow these steps:
 ## Dataset
 
 The dataset used in this dashboard is named "supermarkt_sales.xlsx" and is an Excel file. It contains sales data from a supermarket, including information about the city, customer type, gender, product line, sales totals, ratings, and timestamps.
+
+You can find the dataset in: [supermarkt_sales.xlsx](supermarkt_sales.xlsx) 
 
 ## Features
 
@@ -54,19 +54,11 @@ The KPIs provide a quick snapshot of the filtered data:
 - **Average Rating**: The average rating with a star rating representation.
 - **Average Sales Per Transaction**: The average sales per transaction in US dollars.
 
-## Sales by Product Line
-
-The bar chart visualizes sales by product line, helping to identify the most and least popular product categories.
-
-## Sales by Hour
-
-The bar chart shows how sales vary by hour of the day, helping to understand sales patterns throughout the day.
 
 ## Code
 
 The code for this Sales Dashboard is implemented in Python using Streamlit, pandas, and Plotly Express. You can find the main application code in the [app.py](app.py) file.
 
-## Contributing
 
 ## Contributing
 
