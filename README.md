@@ -66,3 +66,27 @@ The bar chart shows how sales vary by hour of the day, helping to understand sal
 
 The code for this Sales Dashboard is implemented in Python using Streamlit, pandas, and Plotly Express. You can find the main application code in the [app.py](app.py) file.
 
+## Contributing
+
+## Contributing
+
+We welcome contributions to this project. If you have suggestions for improvements, bug reports, or would like to contribute code, please follow the guidelines below:
+
+1. Fork the repository on GitHub.
+2. Clone the forked repository to your local machine.
+3. Create a new branch to work on your feature or bug fix.
+4. Make your changes and ensure they are properly tested.
+5. Commit your changes with clear and concise commit messages.
+6. Push your changes to your fork on GitHub.
+7. Create a pull request from your fork to the original repository.
+8. Provide a detailed description of your changes and any relevant information.
+
+We'll review your pull request and, if it aligns with the project's goals and standards, merge it. Thank you for contributing to our project!
+
+### Reporting Issues
+
+If you find any issues with the project or have suggestions for improvements, please feel free to open a GitHub issue. We appreciate your feedback and will address issues as soon as possible.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
