@@ -4,6 +4,8 @@ This Sales Dashboard is a data analysis and visualization project created in Pyt
 
 ![Dashboard](dashboard.png)
 
+![Dashboard GIF](dashboard.gif)
+
 
 ## Table of Contents
 
