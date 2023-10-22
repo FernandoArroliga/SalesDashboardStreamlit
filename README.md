@@ -2,7 +2,7 @@
 
 This Sales Dashboard is a data analysis and visualization project created in Python using Streamlit, pandas, and Plotly Express. It allows users to interactively explore and gain insights from a sales dataset. The dashboard provides key performance indicators (KPIs), product line sales, and hourly sales breakdown, enabling users to make data-driven decisions based on the available data.
 
-Demo: [Demo](https://google.com)
+[Demo](https://google.com)
 
 ![Dashboard](dashboard.png)
 
